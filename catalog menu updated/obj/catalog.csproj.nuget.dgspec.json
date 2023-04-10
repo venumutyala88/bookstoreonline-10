@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BookStoreOnlineApp\\bookstoreonline\\catalog menu updated\\catalog.csproj": {}
+    "F:\\azure\\book\\10-04-23\\4\\bookstoreonline-10\\catalog menu updated\\catalog.csproj": {}
   },
   "projects": {
-    "E:\\BookStoreOnlineApp\\bookstoreonline\\catalog menu updated\\catalog.csproj": {
+    "F:\\azure\\book\\10-04-23\\4\\bookstoreonline-10\\catalog menu updated\\catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BookStoreOnlineApp\\bookstoreonline\\catalog menu updated\\catalog.csproj",
+        "projectUniqueName": "F:\\azure\\book\\10-04-23\\4\\bookstoreonline-10\\catalog menu updated\\catalog.csproj",
         "projectName": "catalog",
-        "projectPath": "E:\\BookStoreOnlineApp\\bookstoreonline\\catalog menu updated\\catalog.csproj",
-        "packagesPath": "C:\\Users\\mural\\.nuget\\packages\\",
-        "outputPath": "E:\\BookStoreOnlineApp\\bookstoreonline\\catalog menu updated\\obj\\",
+        "projectPath": "F:\\azure\\book\\10-04-23\\4\\bookstoreonline-10\\catalog menu updated\\catalog.csproj",
+        "packagesPath": "C:\\Users\\Venu\\.nuget\\packages\\",
+        "outputPath": "F:\\azure\\book\\10-04-23\\4\\bookstoreonline-10\\catalog menu updated\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mural\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Venu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -80,10 +79,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -92,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
